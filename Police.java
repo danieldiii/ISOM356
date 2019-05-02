@@ -4,7 +4,7 @@ import acm.graphics.GCompound;
 import acm.graphics.GImage;
 
 public class Police extends GCompound{
-	private GImage image;
+    private GImage image;
     Map map;
     public Police(Map map) {
         image = new GImage("/Users/Daniel/desktop/police.png");
