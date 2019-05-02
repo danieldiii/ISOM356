@@ -12,15 +12,15 @@ import acm.graphics.GImage;
 import acm.graphics.GRect;
 
 public class Map extends GCompound{
-	public static final int UP = 0;
-    public static final int RIGHT = 1;
-    public static final int DOWN = 2;
-    public static final int LEFT = 3; 
-    public static final int ARRESTED = 4;
-    public static final int ESCAPED = 5;
-    private GImage car;
-    GRect brick;
-    public static int mapOption = new Random().nextInt(3);
+public static final int UP = 0;
+public static final int RIGHT = 1;
+public static final int DOWN = 2;
+public static final int LEFT = 3; 
+public static final int ARRESTED = 4;
+public static final int ESCAPED = 5;
+private GImage car;
+GRect brick;
+public static int mapOption = new Random().nextInt(3);
     
     int[][] road;
     
