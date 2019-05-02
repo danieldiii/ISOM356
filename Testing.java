@@ -24,12 +24,12 @@ public class Testing extends GraphicsProgram{
 	JButton button3;
 	JButton button4;
 	Police police;
-    Map map;
-    Burglar burglar;
-    Timer timer;
-    Timer timer1;
-    String text;
-    String typed;
+        Map map;
+        Burglar burglar;
+        Timer timer;
+        Timer timer1;
+        String text;
+        String typed;
 	int road[][];
 	int speed = 400;
 	int character = 0;
@@ -44,9 +44,11 @@ public class Testing extends GraphicsProgram{
 			case 2:this.textField.setText("Do not go gentle into that good night. Old age should burn and rave at close of day;\n"
 	                + "Rage, rage against the dying of the light. Though wise men at their end know dark is right.\n" + 
 	                "Because their words had forked no lightning they. Good men, the last wave by, crying how bright.");break;
+			
 			case 1:this.textField.setText("A faint wind moaned through the trees, and Tom feared it might be the spirits of the dead,\n"+
-	              "complaining at being disturbed. The boys talked little, and only under their breath,\n" +
-					"for the time and the place and the pervading solemnity and silence oppressed their spirits.");break;
+	               "complaining at being disturbed. The boys talked little, and only under their breath,\n" +
+		       "for the time and the place and the pervading solemnity and silence oppressed their spirits.");break;
+			
 			case 0:this.textField.setText("Wild men who caught and sang the sun in flight, And learn, too late, they grieved it on its way.\n"+
 					"Do not go gentle into that good night. Grave men, near death, who see with blinding sight.\n" +
 					"Blind eyes could blaze like meteors and be gay. Rage, rage against the dying of the light.");
